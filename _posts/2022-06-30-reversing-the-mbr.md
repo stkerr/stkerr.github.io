@@ -24,12 +24,13 @@ The first step in figuring out the MBR was to actually get a copy of it I could 
 
 After looking at [Wikipedia](http://en.wikipedia.org/wiki/Master_boot_record), I figured out the MBR structure was:
 
-    0000h - 01B7h       Code Area (440 bytes)
-
-    01B8h - 01BBh       Disk Signature (4 bytes)
-    01BCh - 01BDh       Generally Zeroed out (2 bytes)
-    01BEh - 01FDh       List of Partition Records (4 16-byte structures)
-    01FEh - 01FFh       MBR Signature (2 bytes - Must be AA55h)
+```
+0000h - 01B7h       Code Area (440 bytes)
+01B8h - 01BBh       Disk Signature (4 bytes)
+01BCh - 01BDh       Generally Zeroed out (2 bytes)
+01BEh - 01FDh       List of Partition Records (4 16-byte structures)
+01FEh - 01FFh       MBR Signature (2 bytes - Must be AA55h)
+```
 
 The above structure is what gets loaded into memory and executed. The code area is going to do a few different things, which I look at below. The disk signature can be used to uniquely identify a hard disk. The partition records define different operating systems and partitions on the hard disk. Have you ever noticed how you have to jump through some hoops if you want to have more than 4 operating systems or partitions on your computer? Well, that's because you only have 4 partition records available. The MBR signature helps illustrate that this is in fact an MBR structure.
 
