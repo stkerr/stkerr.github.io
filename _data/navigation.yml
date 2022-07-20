@@ -45,10 +45,10 @@ main:
   # Blog
   - title: "Blog"
     url: "blog/"
-    parent: 1
-    childs:
-        - title: "Blog List"
-          url: "blog/"
+    parent: 0
+      #    childs:
+      #  - title: "Blog List"
+      #    url: "blog/"
 
-        - title: "Blog Single"
-          url: "music/2020/08/05/by-spite-about/"
+      #  - title: "Blog Single"
+      #    url: "music/2020/08/05/by-spite-about/"

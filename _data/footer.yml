@@ -5,12 +5,12 @@
 
 main:
   social:
-    - title: "Pinterest"
-      icon: "fab fa-pinterest"
-      url: "https://www.pinterest.com/"
-    - title: "Instagram"
-      icon: "fab fa-instagram"
-      url: "https://instagram.com/"
-    - title: "Dribbble"
-      icon: "fab fa-dribbble"
-      url: "https://dribbble.com/"
+    - title: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/samkerr"
+    - title: "GitHub"
+      icon: "fab fa-github"
+      url: "https://www.github.com/stkerr"
+    - title: "GitLab"
+      icon: "fab fa-gitlab"
+      url: "https://www.gitlab.com/stkerr"

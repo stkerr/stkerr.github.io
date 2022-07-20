@@ -27,8 +27,8 @@ about:
 #    - label: "Residence"
 #      value: "USA"
 
-    - label: "Freelance"
-      value: "Available"
+#    - label: "Freelance"
+#      value: "Available"
 
     - label: "Address"
       value: "Cincinnati, OH, USA"
@@ -156,17 +156,18 @@ resume:
     title: "Education"
     subtitle: "Studied at"
     items:
-      - year: "2011-2012"
-        name: "Art University <br />New York"
-        text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
 
-      - year: "2010-2011"
-        name: "Programming Course <br />Paris"
-        text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
+      - year: "2022"
+        name: "Master of Business Administration"
+        text: "Purdue University"
 
-      - year: "2009-2010"
-        name: "Web Design Course <br />London"
-        text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
+      - year: "2012"
+        name: "Master of Science<br/> Computer Science"
+        text: "Purdue University"
+
+      - year: "2011"
+        name: "Bachelor of Science<br/> Computer Science"
+        text: "Purdue University"
 
 ### Skills [ skills ]
 skills:
@@ -310,20 +311,20 @@ contacts:
   subname: "Consultant & Mentor"
   signature: "Sam Kerr"
   list:
-    - label: "Age:"
-      value: "24"
+    #    - label: "Age:"
+    # value: "24"
 
-    - label: "Residence:"
-      value: "USA"
+    #    - label: "Residence:"
+    #      value: "USA"
 
-    - label: "Freelance:"
-      value: "Available"
+    #    - label: "Freelance:"
+    # value: "Available"
 
-    - label: "Address:"
-      value: "San Francisco"
+    #- label: "Address:"
+    # value: "San Francisco"
 
-    - label: "Phone:"
-      value: "+1 256 254 84 56"
+    #- label: "Phone:"
+    #  value: "+1 256 254 84 56"
 
     - label: "E-mail:"
-      value: "alejandroa@gmail.com"
+      value: "sam@samuelkerr.com"
