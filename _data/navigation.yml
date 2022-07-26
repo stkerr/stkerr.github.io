@@ -9,18 +9,18 @@ main:
   # Home
   - title: "Home"
     url: "/"
-    parent: 1
-    childs:
-        - title: "Home 1"
-          url: "/"
-        - title: "Home 2"
-          url: "index-2/"
-        - title: "Home 3"
-          url: "index-3/"
-        - title: "Home Slider"
-          url: "index-slider/"
-        - title: "Home Video"
-          url: "index-video/"
+#    parent: 1
+#    childs:
+#        - title: "Home"
+#          url: "/"
+#        - title: "Home 2"
+#          url: "index-2/"
+#        - title: "Home 3"
+#          url: "index-3/"
+#        - title: "Home Slider"
+#          url: "index-slider/"
+#        - title: "Home Video"
+#          url: "index-video/"
 
   # About
   - title: "About"

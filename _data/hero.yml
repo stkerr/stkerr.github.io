@@ -4,13 +4,13 @@
 
 ### Started Image
 started-image1:
-  image: "assets/img/man.jpg"
+  image: "assets/images/profile.jpg"
 
 started-image2:
-  image: "assets/img/man2.jpg"
+  image: "assets/images/profile.jpg"
 
 started-image3:
-  image: "assets/img/girl3.jpg"
+  image: "assets/images/profile.jpg"
 
 ### Started Video
 started-video:
