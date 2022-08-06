@@ -38,7 +38,7 @@ main:
     parent: 0
 
   # Contacts
-  - title: "Contacts"
+  - title: "Contact"
     url: "#section-contacts"
     parent: 0
 

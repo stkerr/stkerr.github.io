@@ -45,28 +45,28 @@ services:
   subtitle: "What I Do"
   items:
     - icon: "fas fa-brain"
-      name: "Economic <br />Science"
-      text: "Economics is a social science concerned with the production, consumption of goods and services."
+      name: "Product Management"
+      text: "I have brought multiple award-winning products to market in my career. I am passionate about identifying opportunities for products that solve user needs while ensuring successful business outcomes."
 
     - icon: "fas fa-ad"
-      name: "Marketing <br />& Advertising"
-      text: "Advertising Management though is a complex process of employing various media to sell a product or service."
+      name: "Enterprise Software"
+      text: "All businesses will become software businesses and need the tooling to support that. My career has given me and experience in the ideation, development, and successful launches of enterprise software products. I enjoy the personas involved and the challenges in scaling a good idea to something enterprises can depend on."
 
     - icon: "fab fa-chrome"
-      name: "Web <br />Development"
-      text: "The web development process includes: web design, web content, client-side / server-side scripting and network security configuration."
+      name: "Product Consulting"
+      text: "Helping others uncover customer needs, develop innovative solutions, and establish mature product processes is an area I provide value in. I am especially interested in working with small, early-stage companies as they work through these areas."
 
     - icon: "fas fa-headphones"
-      name: "Music <br />Writing"
-      text: "Sheet music is the basic form in which Western classical music is notated so that it can be learned and performed by solo singers."
+      name: "Investments"
+      text: "Investing is about understanding how the world works and identifying opportunities to put capital towards those areas that benefit society and shareholders. I focus on public markets as well as some private investments."
+    
+    - icon: "fas fa-chess-board"
+      name: "Open Source"
+      text: 'Lorem ipsum'
 
-    - icon: "fas fa-gamepad"
-      name: "Game <br />Development"
-      text: "Come Up With a Game Idea. An idea is the first thing that comes to mind when a game is being described before creating."
-
-    - icon: "fas fa-video"
-      name: "Photography <br />& Video"
-      text: "Sessions. If you are a photographer that spends most of the time in a portrait studio, you can charge for your session."
+    - icon: "fas fa-chess-board"
+      name: "Gaming"
+      text: 'One of my passions is gaming, whether it is video, board, or card games. Games are a fun way to solve problems with a team or test your skills against an opponent. One of my favorite games is <a href="https://en.wikipedia.org/wiki/Go_(game)">Go</a>, which I have played since I was a teenager.'
 
 ### Pricing [ pricing ]
 pricing:
@@ -136,12 +136,12 @@ resume:
     title: "Experience"
     subtitle: "Working with"
     items:
-      - year: "Present"
-        name: "The Turin <br />Olympics"
+      - year: "2019-Present"
+        name: "GitLab<br /> <i>Principal Product Manager</i>"
         text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
 
-      - year: "2016-2018"
-        name: "Red <br />Drifting"
+      - year: "2013-2019"
+        name: "Arxan Technologies <br/> <i>Senior Director of Product Management</i>"
         text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
 
       - year: "2014-2016"
