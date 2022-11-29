@@ -14,9 +14,9 @@ header:
     alt: "Sam Kerr"
 
   button:
-    text: "Download CV"
-    url: "https://drive.google.com/"
-    icon: "fas fa-download"
+   text: "Blog"
+   url: "blog/"
+   icon: "fas fa-feather-alt"
 
 ### Portfolio Filters Settings
 portfolio:

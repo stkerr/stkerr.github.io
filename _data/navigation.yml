@@ -29,24 +29,29 @@ main:
 
   # Resume
   - title: "Resume"
-    url: "#section-experience"
+    url: "#section-products"
     parent: 0
+
+  # Skills
+  #- title: "Skills"
+    # url: "#section-skills"
+    # parent: 0
 
   # Portfolio
-  - title: "Portfolio"
-    url: "#section-portfolio"
-    parent: 0
+  # - title: "Portfolio"
+  #   url: "#section-portfolio"
+  #   parent: 0
 
   # Contacts
-  - title: "Contact"
-    url: "#section-contacts"
-    parent: 0
+  # - title: "Contact"
+  #   url: "#section-contacts"
+  #   parent: 0
 
   # Blog
-  - title: "Blog"
-    url: "blog/"
-    parent: 0
-      #    childs:
+  # - title: "Blog"
+  #   url: "blog/"
+  #   parent: 0
+  #     #    childs:
       #  - title: "Blog List"
       #    url: "blog/"
 
