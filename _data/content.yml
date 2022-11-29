@@ -1,0 +1,386 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Started [ started ]
+started:
+  title: "Sam <br />Kerr"
+  typed:
+    - "Product Leader"
+    - "Technologist"
+    - "Investor"
+  text: "Hello! I'm Sam. I am a product leader, software security and
+  cryptopgraphy practioner, and huge finance data fan.
+
+  I've released multiple award winning products and solved challening problems
+  in my career that I'd love to tell you more about."
+
+  button:
+    text: "Check out my blog"
+    link: "blog/"
+
+### About [ about ]
+about:
+  title: "About Me"
+  subtitle: "My story"
+  text: "<p>I learned to code when I was little when my dad gave me his old work laptop. I taught myself <a href='https://en.wikipedia.org/wiki/QBasic'>QBasic</a> on that thing and loved coding ever since. I can code over a dozen programming languages and am in the top 0.37% of Stack Overflow users (no, <a href='https://stackoverflow.com/users/39036/samoz'>really</a>.)</p><p>At Purdue, I became passionate about computer security, since the smallest flaw could unravel the most secure system. I've (legally) reverse engineered tons of programs, built tools to make the job easier, and given conference talks about it. Details matter and I've always been very detail oriented.</p><p>Speaking of details, the stock market always fascinated me since I was little. Understanding how the world worked can translate into predicting what a price of a company may be. Finance is also a place with tons of data, which is a great complement to my interest in coding.</p><p>I was born in Cincinnati, OH and live here now with my wife and two children. As a Cincinnati native, I am addicted to our local chili. Highly recommend you try it if you've never had it before!</p>"
+  list:
+#    - label: "Age"
+#      value: "24"
+
+#    - label: "Residence"
+#      value: "USA"
+
+#    - label: "Freelance"
+#      value: "Available"
+
+    - label: "Address"
+      value: "Cincinnati, OH, USA"
+
+#    - label: "Phone"
+#      value: "+1 256 254 84 56"
+
+    - label: "E-mail"
+      value: "sam@samuelkerr.com"
+
+### Services [ services ]
+services:
+  title: "Activities"
+  subtitle: "What I Do"
+  items:
+    - icon: "fas fa-brain"
+      name: "Product Management"
+      text: "I have brought multiple award-winning products to market in my career. I am passionate about identifying opportunities for products that solve user needs while ensuring successful business outcomes."
+
+    - icon: "fas fa-cloud-upload-alt"
+      name: "Enterprise Software"
+      text: "All businesses will become software businesses and need the tooling to support that. My career has given me and experience in the ideation, development, and successful launches of enterprise software products. I enjoy the personas involved and the challenges in scaling a good idea to something enterprises can depend on."
+
+    - icon: "fas fa-business-time"
+      name: "Product Consulting"
+      text: "Helping others uncover customer needs, develop innovative solutions, and establish mature product processes is an area I provide value in. I am especially interested in working with small, early-stage companies as they work through these areas."
+
+    - icon: "fas fa-chart-line"
+      name: "Investments"
+      text: "Investing is about understanding how the world works and identifying opportunities to put capital towards those areas that benefit society and shareholders. I focus on public markets as well as some private investments."
+    
+    - icon: "fas fa-code"
+      name: "Open Source"
+      text: "Building on the shoulders of giants helps us get closer to the stars. I'm proud to have advocated for open source software in my <a href='https://about.gitlab.com/blog/2021/03/23/gitlab-open-sources-protocol-fuzz-test-engine/'>professional career</a>. Open source helped me advance my career and skills when I was learning and I'm looking for opportunities to contribute back to meaningful projects."
+
+    - icon: "fas fa-chess"
+      name: "Gaming"
+      text: 'One of my passions is gaming, whether it is video, board, or card games. Games are a fun way to solve problems with a team or test your skills against an opponent. One of my favorite games is <a href="https://en.wikipedia.org/wiki/Go_(game)">Go</a>, which I have played since I was a teenager.'
+
+### Pricing [ pricing ]
+pricing:
+  title: "Pricing"
+  subtitle: "My Plans"
+  items:
+    - icon: "fas fa-star"
+      name: "Basic"
+      price: "39"
+      price_before: "$"
+      price_after: "hour"
+      list:
+        - value: "Web Development"
+          disable: "no"
+        - value: "Advetising"
+          disable: "no"
+        - value: "Game Development"
+          disable: "no"
+        - value: "Music Writing"
+          disable: "yes"
+        - value: "Photography"
+          disable: "yes"
+      button: "Buy Now"
+      link: "#section-contacts"
+
+    - icon: "fas fa-rocket"
+      name: "Premium"
+      price: "59"
+      price_before: "$"
+      price_after: "hour"
+      list:
+        - value: "Web Development"
+          disable: "no"
+        - value: "Advetising"
+          disable: "no"
+        - value: "Game Development"
+          disable: "no"
+        - value: "Music Writing"
+          disable: "no"
+        - value: "Photography"
+          disable: "no"
+      button: "Buy Now"
+      link: "#section-contacts"
+
+    - icon: "fas fa-space-shuttle"
+      name: "Ultimate"
+      price: "79"
+      price_before: "$"
+      price_after: "hour"
+      list:
+        - value: "Web Development"
+          disable: "no"
+        - value: "Advetising"
+          disable: "no"
+        - value: "Game Development"
+          disable: "no"
+        - value: "Music Writing"
+          disable: "no"
+        - value: "Photography & Video"
+          disable: "no"
+      button: "Buy Now"
+      link: "#section-contacts"
+
+### Resume [ resume ]
+resume:
+  products:
+    title: "Products"
+    subtitle: "Highlighted products I've launched"
+    items:
+    
+    - year: "2022"
+      name: "GitLab Analytics"
+      text: "An option for customers to instrument their own applications, have the results appear in GitLab, and enrich that data with information from GitLab and other data sources."
+
+    - year: "2021"
+      name: "GitLab Compliance"
+      text: "Introduction of <a href='https://about.gitlab.com/releases/2022/01/22/gitlab-14-7-released/#streaming-audit-events>streaming audit events</a> and other compliance capabilities to GitLab that are a major driver of usage by enterprise customers."
+
+    - year: "2020"
+      name: "GitLab Fuzz Testing"
+      text: "Integration of two acquired fuzz testing companies, Peach Tech and Fuzzit, into the GitLab platform for <a href='https://about.gitlab.com/releases/2020/08/22/gitlab-13-3-released/#coverage-guided-fuzz-testing-for-go-and-cc-applications'>coverage-guided and API fuzz testing</a>. This allows customers to find bug and security issues in their apps that traditional scanning tools and checkers miss by testing for application-specific behavior."
+
+    - year: "2019"
+      name: "GitLab Defend"
+      text: "An expansion to GitLab's offering to enable customers to protect deployed web apps from anomolous traffic and hacking attempts."
+
+    - year: "2019"
+      name: "Arxan for Android and iOS"
+      text: "A new product built from the ground up to protect modern Android applications built using languages like Kotlin and Java from hacking. This product won an <a href='https://www.csoonline.com/article/3344361/hottest-new-cybersecurity-products-at-rsa-2019.html#slide3'>RSA Hot award</a> in 2019 when released."
+
+    - year: "2018"
+      name: "Arxan Threat Analytics"
+      text: "An expansion to our desktop, mobile, and web product lines to provide real-time alerting back to customers when their apps were under attack so they could take action. This product won an <a href='https://www.csoonline.com/article/3268924/hottest-cybersecurity-products-at-rsa-2018.html#slide14'>RSA Hot award</a> in 2018 when released."
+
+    - year: "2013"
+      name: "TransformIT"
+      text: "An innovative new whitebox cryptography product for digital media, finance, banking, telecom, medical device, and other applications. It is used to protect data in apps that run on over 100 billion devices worldwide."
+    
+
+
+  experience:
+    title: "Experience"
+    subtitle: "Working with"
+    items:
+      - year: "2022-Present"
+        name: "GitLab<br /> <i>Group Product Manager</i>"
+
+      - year: "2019-2022"
+        name: "GitLab<br /> <i>Principal Product Manager</i>"
+        #        text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
+
+      - year: "2013-2019"
+        name: "Arxan Technologies <br/> <i>Senior Director of Product Management</i>"
+        #        text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
+
+      - year: "2012-2013"
+        name: "MIT Lincoln Laboratory <br/> <i>Associate Staff, Malware Analysis</i>"
+        #        text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
+
+  education:
+    title: "Education"
+    subtitle: "Studied at"
+    items:
+
+      - year: "2022"
+        name: "Master of Business Administration"
+        text: "Purdue University"
+
+      - year: "2012"
+        name: "Master of Science<br/> Computer Science"
+        text: "Purdue University"
+
+      - year: "2011"
+        name: "Bachelor of Science<br/> Computer Science"
+        text: "Minor in Psychology<br/>Purdue University"
+
+  # patents:
+  #   title: "Patent"
+  #   subtitle: "Full details on blog"
+  #   items:
+  #     - year: "2011"
+  #       name: "PUF ROK"
+  #       text: "Patent"
+
+  # publications:
+  #   title: "Scholarly Publications"
+  #   subtitle: "Full details on blog"
+  #   items:
+  #     - year: "2011"
+  #       name: "Test"
+  #       text: "Paper title"
+
+### Skills [ skills ]
+skills:
+  columns:
+
+    - type: "default" #skills progress type - default, dotted, circles
+      title: "Design Skills"
+      subtitle: "Creative ability"
+      slug: "design"
+      items:
+        - label: "Web Layout"
+          value: "90" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+
+        - label: "Illustrations"
+          value: "70" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+
+        - label: "Photoshop"
+          value: "95" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+
+        - label: "Graphic Design"
+          value: "85" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+
+    - type: "dotted" #skills progress type - default, dotted, circles
+      title: "Language Skills"
+      subtitle: "Reading and writing"
+      slug: "lang"
+      items:
+        - label: "English"
+          value: "90" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+
+        - label: "German"
+          value: "70" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+
+        - label: "Italian"
+          value: "55" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+
+        - label: "French"
+          value: "85" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+
+    - type: "circles" #skills progress type - default, dotted, circles
+      title: "Coding Skills"
+      subtitle: "Developing on"
+      slug: "code"
+      items:
+        - label: "WordPress"
+          value: "90" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt."
+
+        - label: "PHP, MYSQL"
+          value: "75" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt."
+
+        - label: "JavaScript"
+          value: "85" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt."
+
+        - label: "Angular"
+          value: "80" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt."
+
+        - label: "HTML, CSS"
+          value: "95" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt."
+
+        - label: "Python"
+          value: "90" #0-100 progress in %
+          text: "Etiam sit amet orci eget eros faucibus tincidunt."
+
+### Testimonials [ testimonials ]
+testimonials:
+  title: "Reviews"
+  subtitle: "What customers say"
+  items:
+    - image: "assets/img/testimonials/rev1.png"
+      name: "Joseph Mackey"
+      role: "Architect"
+      text: "Excellent all around! What stood out most was Jake's excellent service. He made sure our order was placed in time, even though we were ordering on a holiday."
+
+    - image: "assets/img/testimonials/rev1.png"
+      name: "James Green"
+      role: "Art Director"
+      text: "Excellent all around! What stood out most was Jake's excellent service. He made sure our order was placed in time, even though we were ordering on a holiday."
+
+    - image: "assets/img/testimonials/rev1.png"
+      name: "Joseph Mackey"
+      role: "Architect"
+      text: "Excellent all around! What stood out most was Jake's excellent service. He made sure our order was placed in time, even though we were ordering on a holiday."
+
+    - image: "assets/img/testimonials/rev1.png"
+      name: "James Green"
+      role: "Art Director"
+      text: "Excellent all around! What stood out most was Jake's excellent service. He made sure our order was placed in time, even though we were ordering on a holiday."
+
+### Clients [ clients ]
+clients:
+  title: "Clients"
+  subtitle: "My partners"
+  items:
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client2.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client3.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client1.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client4.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client2.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client3.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client1.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client4.png"
+
+### Portfolio [ portfolio ]
+#items generates from dir /_works/*
+portfolio:
+  title: "Portfolio"
+  subtitle: "Latest works"
+
+### Contact [ contacts ]
+contacts:
+  title: "Contact"
+  subtitle: "Let's talk"
+  name: "Sam Kerr"
+  subname: ""
+  signature: "Sam Kerr"
+  list:
+    #    - label: "Age:"
+    # value: "24"
+
+    #    - label: "Residence:"
+    #      value: "USA"
+
+    #    - label: "Freelance:"
+    # value: "Available"
+
+    #- label: "Address:"
+    # value: "San Francisco"
+
+    #- label: "Phone:"
+    #  value: "+1 256 254 84 56"
+
+    - label: "E-mail:"
+      value: "sam@samuelkerr.com"
