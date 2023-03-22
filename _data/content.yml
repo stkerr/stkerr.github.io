@@ -24,7 +24,7 @@ started:
 about:
   title: "About Me"
   subtitle: "My story"
-  text: "<p>I learned to code when I was little when my dad gave me his old work laptop. I taught myself <a href='https://en.wikipedia.org/wiki/QBasic'>QBasic</a> on that thing and loved coding ever since. I can code over a dozen programming languages and am in the top 0.37% of Stack Overflow users (no, <a href='https://stackoverflow.com/users/39036/samoz'>really</a>.)</p><p>At Purdue, I became passionate about computer security, since the smallest flaw could unravel the most secure system. I've (legally) reverse engineered tons of programs, built tools to make the job easier, and given conference talks about it. Details matter and I've always been very detail oriented.</p><p>Speaking of details, the stock market always fascinated me since I was little. Understanding how the world worked can translate into predicting what a price of a company may be. Finance is also a place with tons of data, which is a great complement to my interest in coding.</p><p>I was born in Cincinnati, OH and live here now with my wife and two children. As a Cincinnati native, I am addicted to our local chili. Highly recommend you try it if you've never had it before!</p>"
+  text: "<p>I learned to code when I was little when my dad gave me his old work laptop. I taught myself <a href='https://en.wikipedia.org/wiki/QBasic'>QBasic</a> on that thing and loved coding ever since. I can code over a dozen programming languages and am in the top 0.37% of Stack Overflow users (no, <a href='https://stackoverflow.com/users/39036/samoz'>really</a>.)</p><p>At Purdue, I became passionate about computer security, since the smallest flaw could unravel the most secure system. I've (legally) reverse engineered tons of programs, built tools to make the job easier, and given conference talks about it. Details matter and I've always been very detail oriented.</p><p>Speaking of details, the stock market always fascinated me since I was little. Understanding how the world worked can translate into predicting what a price of a company may be. Finance is also a place with tons of data, which is a great complement to my interest in coding.</p><p>Products, especially software products, have always interested me. It is not enough to build something cool, but it must be something that solves a problem a customer has and that can be delivered to them at the right time and in the right way. I have been in the field of Product Management for most of my career, building digital products to do just that.</p><p>I was born in Cincinnati, OH and live here now with my wife and two children. As a Cincinnati native, I am addicted to our local chili. Highly recommend you try it if you've never had it before!</p>"
   list:
 #    - label: "Age"
 #      value: "24"
@@ -55,7 +55,7 @@ services:
 
     - icon: "fas fa-cloud-upload-alt"
       name: "Enterprise Software"
-      text: "All businesses will become software businesses and need the tooling to support that. My career has given me and experience in the ideation, development, and successful launches of enterprise software products. I enjoy the personas involved and the challenges in scaling a good idea to something enterprises can depend on."
+      text: "All businesses will become software businesses and need the tooling to support that. My career has given me experience in the ideation, development, and successful launches of enterprise software products. I enjoy the personas involved and the challenges in scaling a good idea to something enterprises can depend on."
 
     - icon: "fas fa-business-time"
       name: "Product Consulting"
@@ -206,7 +206,7 @@ resume:
 
       - year: "2011"
         name: "Bachelor of Science<br/> Computer Science"
-        text: "Minor in Psychology<br/>Purdue University"
+        text: "Graduated with Honors. Minor in Psychology<br/>Purdue University"
 
   # patents:
   #   title: "Patent"
